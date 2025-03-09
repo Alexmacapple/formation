@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<title>Démo</title>
+	<meta charset="utf-8">	<!-- Layout stylesheet -->
+	<link rel="stylesheet" href="css/font/small.css" type="text/css" media="screen">	
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<!-- Theme stylesheet -->
+	<link rel="stylesheet" id="currentCSS" href="css/themes/default.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/print.css" type="text/css" media="print">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="AccesSlide.js"></script>
+	<script src="lang/lang_fr.js"></script>
+	<script src="highlight/highlight.pack.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+	<style>
+		.lang-btn{position:absolute;text-decoration:none;font-size:70%;right:20px;border-top:0;padding:0 5px 3px 5px;border-radius:0 0 3px 3px;z-index:900;box-shadow:0 0 2px #999;background:#fafafa}
+		.lang-btn:hover,.lang-btn:focus{background:#f2f2f2;}
+	</style>	
+
+</head>
+
+<body>
+
+
+	<div id="screen" class="modeplan" data-effect="Eno">
+
+		<div id="volet"></div>
+		
+		<header id="banner" role="banner" class="main-header clearfix">
+			
+			<a href="#"><img id="logo" class="main-logo" src="img_slide/.png" alt="" /></a>
+
+			<h1 class="main-title">Démo</h1>
+		</header>
+
+		<div id="nav" class="tool-bar footer-nav clearfix">
+			<div id="wrappernav">
+				<ul class="related">
+					<li><a href="#">lorem</a></li>
+					
+				</ul>
+			</div>
+		</div>
+
+		<nav role="navigation" id="sommaire" class="tool-block tool-block-summary" tabindex="-1"></nav>
+
+		<div id="wrapper">
+
+			<main role="main" id="main">
+
+				<!-- slide 1 -->
+
+				<section class="slide couv">
+					<h2>ministère de l'économie et des finances</h2>
+					<p>Démo</p>
+				</section>
+
+				<!-- slide normal -->
+
+				<section class="slide">
+					<h2>titre de la slide</h2>
+					<p>Contenu principal de la diapositive.</p>
+				</section>
+
+				<!-- slide en deux colonne -->
+				<section class="slide">
+					<h2>Slide avec 2 colonnes</h2>
+					<div class="container">
+						<div class="col">
+							<p>Contenu de la première colonne.</p>
+						</div>
+						<div class="col">
+							<p>Contenu de la deuxième colonne.</p>
+						</div>
+					</div>
+				</section>
+
+				<!-- Slide avec une image à gauche et du texte à droite -->
+
+				<section class="slide">
+					<h2>Image à gauche, texte à droite</h2>
+					<div class="container">
+						<div class="col">
+							<img src="img/image.jpg" alt="Illustration">
+						</div>
+						<div class="col">
+							<p>Explication sur l'image.</p>
+						</div>
+					</div>
+				</section>
+
+				<!-- Slide avec liste -->
+
+				<section class="slide">
+					<h2>Liste des avantages</h2>
+					<ul>
+						<li>Accessible</li>
+						<li>Personnalisable</li>
+						<li>Compatible navigateur</li>
+					</ul>
+				</section>
+
+				<!-- Slide avec 3 colonnes -->
+
+				<section class="slide">
+					<h2>Slide avec 3 colonnes</h2>
+					<div class="container">
+						<div class="col">
+							<p>Colonne 1</p>
+						</div>
+						<div class="col">
+							<p>Colonne 2</p>
+						</div>
+						<div class="col">
+							<p>Colonne 3</p>
+						</div>
+					</div>
+				</section>
+
+				<!-- Slide avec avec un tableau -->
+
+				<section class="slide">
+					<h2>Comparaison des outils</h2>
+					<table>
+						<tr>
+							<th>Outil</th>
+							<th>Prix</th>
+							<th>Accessibilité</th>
+						</tr>
+						<tr>
+							<td>PowerPoint</td>
+							<td>Payant</td>
+							<td>Basique</td>
+						</tr>
+						<tr>
+							<td>AccesSlide</td>
+							<td>Gratuit</td>
+							<td>Avancée</td>
+						</tr>
+					</table>
+				</section>
+
+				<!-- Slide avec une vidéo intégrée -->
+
+				<section class="slide">
+					<h2>Vidéo explicative</h2>
+					<div class="video-container">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</section>
+
+				<!-- Slide avec animation -->
+
+				<section class="slide">
+					<h2>Animation progressive</h2>
+					<p class="Cmasque">Ce texte apparaîtra après un clic.</p>
+				</section>
+
+				<!-- Slide Ajouter des animations (effets) -->
+
+				<!-- slide de fin -->
+
+				<section  class="slide end noprint">
+					<h2 class="end-title">Merci de votre attention !</h2>
+				</section>
+
+			</main>
+
+		</div>
+
+		<div id="setting" class="tool-block tool-block-settings " role="dialog" tabindex="-1" style="display:none"></div>
+
+	</div>
+
+	<div id="Caudio"></div>
+	<div id="Dcourante" aria-live="polite" aria-atomic="true" aria-hidden="true"></div>
+
+	<script src="slide.js"></script>
+
+	<script src="afontgarde.js"></script>
+	<script>
+		AFontGarde( 'FontAwesome', '\uE600\uE601\uE602\uE605');
+	</script>
+</body>
+</html>

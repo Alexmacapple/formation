@@ -1,0 +1,29 @@
+{
+  "name": "accesslide",
+  "version": "1.0.0",
+  "description": "AccesSlide ===========",
+  "main": "AccesSlide.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/access42/AccesSlide.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/access42/AccesSlide/issues"
+  },
+  "homepage": "https://github.com/access42/AccesSlide#readme",
+  "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-cli": "^1.5.0",
+    "grunt-combine-media-queries": "^1.0.20",
+    "grunt-contrib-cssmin": "^5.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-css": "^0.5.4",
+    "grunt-myth": "^1.1.0"
+  }
+}
